@@ -18,9 +18,8 @@ linkedin_username: "linkedinuser"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "cayman"
-
-rss: rss
+#theme: "minima"
+remote_theme: pages-themes/cayman@v0.2.0
 
 kramdown:
   syntax_highlighter_opts:
@@ -29,6 +28,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
