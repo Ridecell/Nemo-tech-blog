@@ -4,13 +4,11 @@
  	<li style="font-weight: 400;"><span style="font-weight: 400;">A brief overview of our modular and layered architecture governing our actor controller’s behaviors is presented. </span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Two examples of driving behaviors in presence of the signalized intersections are presented to express: </span></li>
 </ul>
-<ol>
- 	<li style="list-style-type: none;">
+ 	<ol style="list-style-type: none;">
 <ol>
  	<li><span style="font-weight: 400;">How we adapt Behavior Trees (BT) - extensively used in video games - to realize diverse driving behaviors. </span></li>
  	<li><span style="font-weight: 400;">How we use real traffic data to drive our customized simulated actors. </span></li>
 </ol>
-</li>
 </ol>
 <h3><span style="font-weight: 400;">Why do we need human-like behaviors in a traffic micro-simulation? </span></h3>
 <span style="font-weight: 400;">Considering the gradual proliferation of autonomous vehicles, the most likely scenario in the upcoming decades would be autonomous vehicles sharing the roadways with human-operated vehicles [</span><a href="https://journals.sagepub.com/doi/pdf/10.3141/2625-06?casa_token=OuLemAD14rMAAAAA:C-c3y6GHWegcBg-D4bJ0oJVR4d5mjoi7_eMDt0zPB8i-aIpKFJk0G6ll3jwaTZEuJIs_E33X-k8M"><span style="font-weight: 400;">2</span></a><span style="font-weight: 400;">]. The human driver behavior is heterogeneous in the sense that different drivers have different driving styles and attributes [</span><a href="https://www.researchgate.net/profile/Manos_Chaniotakis/publication/340424972_Factors_affecting_traffic_flow_efficiency_implications_of_connected_and_autonomous_vehicles_A_review_and_policy_recommendations/links/5e8b18aa92851c2f528329a4/Factors-affecting-traffic-flow-efficiency-implications-of-connected-and-autonomous-vehicles-A-review-and-policy-recommendations.pdf"><span style="font-weight: 400;">3</span></a><span style="font-weight: 400;">]. Under the same surrounding driving conditions, different drivers may make different decisions, mainly because of our various levels of aggression, attention, frustration, and experience. In addition, human drivers are fairly unpredictable by nature as we make not only mistakes and violations but also evasive maneuvers when we anticipate mistakes of other drivers. All of this introduces additional challenges in creating the appropriate level of behavioral complexity in a simulation environment that is intended for training and testing an autonomous vehicle. </span>
