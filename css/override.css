@@ -45,16 +45,16 @@ hr {
 }
 
 .alignright {
-    float:right;
+    align:right;
     margin: 5px 0 20px 20px;
 }
 
 a img.alignright {
-    float: right;
+    align: right;
     margin: 5px 0 20px 20px;
 }
 
 .wp-image-815 {
-    float:right;
+    align:right;
     margin: 5px 0 20px 20px;
 }
